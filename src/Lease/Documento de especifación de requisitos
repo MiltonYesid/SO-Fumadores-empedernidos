@@ -1,0 +1,22 @@
+En una habitación se encuentran tres fumadores empedernidos y un vendedor de
+ materia prima para cigarrillos. Para fabricar y fumar un cigarrillo, 
+cada fumador necesita tres ingredientes: tabaco, papel y fósforos. El vendedor tiene 
+abastecimiento ilimitado de estos tres productos. El primer fumador tiene su propio tabaco, 
+el segundo su propio papel, y el tercero sus propios fósforos, pero cada uno carece de los otros
+ dos ingredientes necesarios para hacer su cigarrillo.
+
+La acción comienza cuando el vendedor coloca en una mesa dos de los ingredientes, 
+elegidos aleatoriamente, con el fin de permitir que uno de los fumadores atente 
+contra su salud fumando un cigarrillo. El fumador que necesita de esos ingredientes 
+construye su cigarrillo y lo consume. Una vez que termina, avisa al vendedor para 
+que coloque otros ingredientes. Los fumadores permanecen en espera, hasta que logran 
+conseguir los ingredientes que necesitan para construir su cigarrillo.
+
+Usted debe escribir un programa concurrente correcto, ya sea en Java o en C 
+usando pthreads, que simule el comportamiento de la habitación modelando las 
+entidades activas como threads independientes. Su solución debe sincronizar
+ los threads para que se comporten de acuerdo al protocolo establecido, evitando
+ además que se produzcan condiciones de competencia por datos. 
+El número de iteraciones m que cada fumador debe ejecutar es un argumento del programa.
+ El programa debe mostrar por pantalla los principales eventos que ocurren, 
+para hacer explícita la sincronización que se está produciendo.
